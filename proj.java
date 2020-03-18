@@ -11,8 +11,8 @@ public class proj {
 
     try {
     int temp,tem,tem2;
-	File fXmlFile = new File("C:\\Users\\842135\\Documents\\Hackathon\\securityreport_xml.xml");
-    FileWriter file = new FileWriter("C:\\Users\\842135\\Documents\\Hackathon\\securityreport_json.json");
+	File fXmlFile = new File("securityreport_xml.xml");
+    FileWriter file = new FileWriter("securityreport_json.json");
 
 	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
