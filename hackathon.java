@@ -18,7 +18,7 @@ public class hackathon {
 		Connection con=null;
 		try {
 		Class.forName("com.mysql.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/employeedb?autoReconnect=true","root","password");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/cognizant?autoReconnect=true","root","password");
 		System.out.println("Connected Successfully");
 		}
 		catch(ClassNotFoundException e) {
